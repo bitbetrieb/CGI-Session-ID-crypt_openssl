@@ -1,0 +1,7 @@
+do{ my $x = {
+       'CGI-Session-ID-crypt_openssl-1.00' => 1,
+       'CGI-Session-ID-crypt_openssl-*' => 1,
+       'CGI-Session-ID-crypt_openssl-1.01' => 1,
+       'blib' => 1
+     };
+$x; }
