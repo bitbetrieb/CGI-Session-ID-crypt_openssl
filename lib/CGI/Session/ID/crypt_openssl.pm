@@ -40,6 +40,12 @@ L<Crypt::OpenSSL::Random> for L<CGI::Session> objects. This library does not
 require any arguments. Use this module to generate security IDs with a high
 level of randomnes.
 
+=head2 METHODS
+
+=item generate_id()
+
+This subroutine is calling by the L<CGI::Session> Module to generate an ID for the session.
+
 =head1 AUTHOR
 
 Helmut Weber, C<< <helmut.weber at bitbetrieb.de> >>
