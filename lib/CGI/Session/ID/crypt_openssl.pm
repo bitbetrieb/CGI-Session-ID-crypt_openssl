@@ -42,9 +42,13 @@ level of randomnes.
 
 =head2 METHODS
 
+=over 4
+
 =item generate_id()
 
 This subroutine is calling by the L<CGI::Session> Module to generate an ID for the session.
+
+=back
 
 =head1 AUTHOR
 
