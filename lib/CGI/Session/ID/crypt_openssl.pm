@@ -9,11 +9,11 @@ CGI::Session::ID::crypt_openssl - CGI::Session ID driver for generating IDs base
 
 =head1 VERSION
 
-Version 1.01
+Version 1.02
 
 =cut
 
-$CGI::Session::ID::crypt_openssl::VERSION = '1.01';
+$CGI::Session::ID::crypt_openssl::VERSION = '1.02';
 
 use CGI::Session::ErrorHandler;
 @CGI::Session::ID::crypt_openssl::ISA = qw/CGI::Session::ErrorHandler/;
@@ -58,7 +58,7 @@ Mark Stosberg for the great support
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (c) 2011 bitbetrieb. All rights reserved.
+Copyright (c) 2013 bitbetrieb. All rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published
