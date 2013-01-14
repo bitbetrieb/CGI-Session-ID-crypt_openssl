@@ -3,7 +3,7 @@ NAME
     IDs based on Crypt::OpenSSL::Random
 
 VERSION
-    Version 1.01
+    Version 1.02
 
 SYNOPSIS
         use CGI::Session;
